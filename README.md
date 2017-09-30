@@ -1,14 +1,14 @@
 # pyonlinedict
 
-##1.Introduction
+## 1.Introduction
 
 Pyonlinedict is a command-line online dictionary based on Python 2.7 that supports queries in 27 languages or sentences. It is easy to find meaning when we encounter words or sentences that are not words or sentences.
 
-##1.介绍
+## 1.介绍
 
 pyonlinedict是一个基于python 2.7开发的命令行在线字典，支持27种语言的字词或句子翻译查询，当我们遇到不会字词或句子时，可以通过它轻松查询意思。
 
-##2.Installation
+## 2.Installation
 
 git clone https://github.com/sunnyelf/pyonlinedict.git
 
@@ -18,7 +18,7 @@ tar -xzvf pyonlinedict-1.0.5.tar.gz
 
 python setup.py install --record install_path.txt
 
-##2.安装
+## 2.安装
 
 git clone https://github.com/sunnyelf/pyonlinedict.git
 
@@ -28,7 +28,7 @@ tar -xzvf pyonlinedict-1.0.5.tar.gz
 
 python setup.py install --record install_path.txt
 
-##3.Usage
+## 3.Usage
 
 Usage: pyonlinedict [options]
 
@@ -60,7 +60,7 @@ Usage: pyonlinedict [options]
   
   pyonlinedict -q 'Hello world!' -f en -t zh
 
-##4.用法
+## 4.用法
 
 用法：pyonlinedict [选项]
 
@@ -91,10 +91,10 @@ Usage: pyonlinedict [options]
    
    pyonlinedict -q 'hello world' -f en -t zh
 
-##5.Uninstall
+## 5.Uninstall
 
 cat install_path.txt | xargs rm -rf
 
-##5.卸载
+## 5.卸载
 
 cat install_path.txt | xargs rm -rf
