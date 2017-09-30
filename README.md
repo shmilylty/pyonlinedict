@@ -65,6 +65,7 @@ Usage: pyonlinedict [options]
 用法：pyonlinedict [选项]
 
   选项：
+  
    -h，--help         显示帮助消息并退出
    
    -q，--query        要查询的字或句子（必需的参数）
